@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>英雄会--后台管理</title>
+    <title>KBD-知识分享后台管理</title>
     @include('admin.public.style')
 </head>
 <body>
