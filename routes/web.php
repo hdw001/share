@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//前端页面
+Route::get('/home/user/user_login','Api\UserController@userLogin');
+Route::get('/home/user/user_register','Api\UserController@userRegister');
+
+//登录路由
+Route::post('/admin/user/user_login','Admin\User\UserController@userLogin');
+Route::post('/admin/user/user_register','Admin\User\UserController@userRegister');

@@ -1,0 +1,25 @@
+table{font-size:14px;}
+.table button{margin-right:15px;}
+.page-title{ padding-bottom: 5px;}
+
+.list-unstyled > li{
+    margin-bottom: 10px;
+}
+.list-unstyled > li:nth-child(1){
+    margin-bottom: 25px;
+}
+table td{
+    text-align : center;
+}
+.pic_img{
+    width: 300px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.pic_head_img{
+    width: 70px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
